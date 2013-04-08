@@ -1,0 +1,15 @@
+<?php
+
+// define the source database
+define("SOURCE_DATABASE", 'test');
+
+/*
+ * You must implement hook_migrate_api(), setting the API level to 2, for
+ * your migration classes to be recognized by the Migrate module.
+ */
+function our_migration_migrate_api() {
+  $api = array(
+    'api' => 2,
+  );
+  return $api;
+}

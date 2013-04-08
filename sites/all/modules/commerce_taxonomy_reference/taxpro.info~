@@ -1,0 +1,7 @@
+name = "taxpro module"
+description = "Allows products to be filtered by family tree"
+core = 7.x
+
+dependencies[] = views
+
+files[] = views/taxpro.views.inc

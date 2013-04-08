@@ -1,0 +1,33 @@
+#site-name a {
+ display: block;
+ overflow: hidden;
+ height: 0;
+ background-repeat: no-repeat;
+ width: 504px;
+ padding-top: 72px;
+ background-image: url(../images/logo.bmp);
+}
+
+#header-combo,
+#nav-full-width,
+#main,
+#footer {
+ padding: 0px 0px;
+}
+
+
+#page-wrapper-right {
+padding-top:50px;
+padding-bottom:20;
+background: url(../images/Background-clean.bmp) repeat-x bottom;
+}
+
+page-wrapper-left {
+margin: 0px;
+background: url(../images/Back_Left.jpg) repeat-x bottom;
+}
+
+#page {
+padding: 50px 0px 20px 0px;
+background: url(../images/background-full.bmp) no-repeat bottom;
+}

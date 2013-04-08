@@ -1,0 +1,214 @@
+/*
+  This is the default layout template for nice menus, and will provide
+  a starting point for the look of your menus. To customize, it's
+  recommended to create a custom CSS file using this file as a template,
+  then configure the module to use your custom CSS file
+  (this is done in the global settings tab of the theme administration.)
+
+  See README.txt and the handbook page (http://drupal.org/node/185543)
+  for more information on using the CSS.
+*/
+
+/******************************
+ Global CSS for ALL menu types
+******************************/
+
+ul.nice-menu,
+ul.nice-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.nice-menu li {
+  border-right: 1px solid #ffffff;
+  float: left; /* LTR */
+}
+
+ul.nice-menu a {
+  padding: 0.3em 5px 0.3em 5px;
+}
+
+ul.nice-menu ul {
+  top: 1.8em;
+  left: -1px; /* LTR */
+  margin-right: 0; /* LTR */
+}
+
+ul.nice-menu ul li {
+  width: 12.5em;
+}
+
+ul.nice-menu li.first {
+  height: 50px;
+}
+
+
+
+/******************************
+ HORIZONTAL (down) menus
+******************************/
+
+ul.nice-menu-down {
+  float: left; /* LTR */
+  border: 0;
+}
+
+ul.nice-menu-down li li {
+  border-top: 0;
+}
+
+ul.nice-menu-down ul {
+  left: 0; /* LTR */
+}
+
+ul.nice-menu-down ul li {
+  clear: both;
+}
+
+ul.nice-menu-down li ul li ul {
+  left: 12.5em; /* LTR */
+  top: -1px;
+}
+
+
+
+/*Custom for main menu
+  by Yan */
+.nice-main-menu ul.nice-menu {
+  background: url(../images/gradient.png) repeat-x bottom #3FC0F0;
+  color: #fff;
+  width: 100%;
+  border-radius: 5px;  
+}
+
+.nice-main-menu ul.nice-menu li li,
+.nice-main-menu ul.nice-menu li li a:link,
+.nice-main-menu ul.nice-menu li li a:visited,
+.nice-main-menu ul.nice-menu li.active-trail a,
+.nice-main-menu ul.nice-menu li:hover a {
+  background: /*url(../images/menu-grad.png) repeat-x bottom*/ #eb008b;
+  color: #fff;
+}
+
+
+.nice-main-menu ul.nice-menu li.first a {
+  background: url(../images/house-icon.png) no-repeat center;
+}
+
+.nice-main-menu ul.nice-menu li.first:hover a, 
+.nice-main-menu ul.nice-menu li.first a.active { 
+  background: url(../images/house-icon.png) #EB008B no-repeat center;
+}
+
+.nice-main-menu ul.nice-menu li.first a {
+  border-radius: 5px 0 0 5px;
+}
+
+
+.nice-main-menu ul.nice-menu li a{
+  color: #FFFFFF;
+  background: none;
+  
+}
+
+
+
+.nice-main-menu ul.nice-menu a {
+  padding: 10px 30px;
+  line-height: 30px;
+}
+
+.nice-main-menu ul.nice-menu ul {
+  top: 50px;
+}
+
+.nice-main-menu ul.nice-menu a {
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*Custom for footer menu
+  by Yan */
+.nice-footer-1-menu {
+  padding-top: 0px;
+  float: left;
+}
+.nice-footer-1-menu ul.nice-menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+.nice-footer-1-menu ul.nice-menu li.first {
+  height: 16px;
+}
+
+.nice-footer-1-menu ul.nice-menu li {
+  border-right: none;
+  padding: 0.3em 0;
+}
+
+.nice-footer-1-menu ul.nice-menu li a {
+  border-right: 1px solid #FFFFFF;
+  padding: 0 5px;
+}
+
+/*
+
+.nice-footer-1-menu
+.nice-footer-1-menu
+.nice-footer-1-menu
+.nice-footer-1-menu
+
+*/
+
+.nice-footer-2-menu ul.nice-menu a {
+  text-decoration: none;
+  color: #f9a5d9;
+  font-weight: bold;
+}
+.nice-footer-2-menu ul.nice-menu li.first {
+  height: 16px;
+}
+
+.nice-footer-2-menu ul.nice-menu li {
+  border-right: none;
+}
+
+.nice-footer-2-menu ul.nice-menu li {
+  border-right: none;
+  padding: 0.3em 0;
+}
+
+.nice-footer-2-menu ul.nice-menu li a {
+  border-right: 1px solid #FFFFFF;
+  padding: 0 5px;
+}
+
+.nice-footer-2-menu {
+  float: left;
+}
+
+.block.copyright {
+  float: right;
+}
+
+.block.copyright p {
+  color: #F9A5D9;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/*
+.nice-footer-2-menu
+.nice-footer-2-menu
+.nice-footer-2-menu
+.nice-footer-2-menu
+.nice-footer-2-menu
+.nice-footer-2-menu
+.nice-footer-2-menu
+.nice-footer-2-menu
+*/

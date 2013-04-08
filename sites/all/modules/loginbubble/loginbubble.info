@@ -1,0 +1,5 @@
+
+name = "LoginBubble"
+description = "Displays User Welcome in a Block"
+core = "7.x"
+package = "Yan's Custom Modules"

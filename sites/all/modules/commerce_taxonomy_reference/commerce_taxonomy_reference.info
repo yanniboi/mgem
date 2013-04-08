@@ -1,0 +1,9 @@
+name = "Commerce Taxonomy Reference"
+description = "Allows commerce products to be filtered by taxonomy parents in views"
+core = 7.x
+
+dependencies[] = views
+
+files[] = views/commerce_taxonomy_reference.views.inc
+files[] = views/views_handler_argument_term_commerce_product_tid_depth.inc
+files[] = views/views_handler_filter_term_commerce_product_tid_depth.inc

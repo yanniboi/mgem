@@ -1,0 +1,13 @@
+name = "Example migration"
+description = "The DTEK drupal 6 to 7 migration."
+package = "DTEK"
+core = 7.x
+dependencies[] = taxonomy
+dependencies[] = image
+dependencies[] = comment
+dependencies[] = migrate
+dependencies[] = list
+dependencies[] = number
+ 
+files[] = our_migration.module
+files[] = our_users.inc

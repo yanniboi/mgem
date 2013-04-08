@@ -1,0 +1,255 @@
+/*Literacy*/    
+li.menu-mlid-1345 {
+  background-color: #e9c300;
+  color: #FFFFFF;
+}
+
+li.menu-mlid-1345 a {
+  background-color: #f5e180;
+  color: #000000;
+}
+
+body.context-literacy .pane-page-level1-panel-pane-1 .pane-content .view-header,
+body.context-literacy .pane-page-level1-panel-pane-1 .pane-content .view-empty {
+  background: #e9c300;
+  color: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  font-family: arial,sans-serif;
+  font-size: 22.22px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+div.taxonomy-browser td.Literacy div.views-field-field-image a {
+  color: #E9C300;
+}
+
+
+/*Numeracy*/
+li.menu-mlid-1360 {
+  background-color: #187698;
+  color: #FFFFFF;
+}
+
+li.menu-mlid-1360 a {
+  background-color: #c3d7de;
+  color: #000000;
+}
+
+body.context-numeracy .pane-page-level1-panel-pane-1 .pane-content .view-header ,
+body.context-numeracy .pane-page-level1-panel-pane-1 .pane-content .view-empty {
+  background: #187698;
+  color: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  font-family: arial,sans-serif;
+  font-size: 22.22px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+div.taxonomy-browser td.Numeracy div.views-field-field-image a {
+  color: #187698;
+}
+
+/*PSHE*/ 
+li.menu-mlid-1363 {
+  background-color: #7e49a1;
+  color: #FFFFFF;
+}
+
+li.menu-mlid-1363 a {
+  background-color: #d9cedf;
+  color: #000000;
+}
+
+body.context-pshe .pane-page-level1-panel-pane-1 .pane-content .view-header ,
+body.context-pshe .pane-page-level1-panel-pane-1 .pane-content .view-empty {
+  background: #7e49a1;
+  color: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  font-family: arial,sans-serif;
+  font-size: 22.22px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+div.taxonomy-browser td.PSHE div.views-field-field-image a {
+  color: #7E49A1;
+}
+
+/*Religion*/
+li.menu-mlid-1366 {
+  background-color: #3cb2e0;
+  color: #FFFFFF;
+}
+
+li.menu-mlid-1366 a {
+  background-color: #cde5ef;
+  color: #000000;
+}
+
+body.context-religion .pane-page-level1-panel-pane-1 .pane-content .view-header,
+body.context-religion .pane-page-level1-panel-pane-1 .pane-content .view-empty {
+  background: #3cb2e0;
+  color: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  font-family: arial,sans-serif;
+  font-size: 22.22px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+div.taxonomy-browser td.Religion div.views-field-field-image a {
+  color: #3CB2E0;
+}
+
+/*Role Play*/
+li.menu-mlid-1370 {
+  background-color: #dd2980;
+  color: #FFFFFF;
+}
+
+li.menu-mlid-1370 a {
+  background-color: #ebc9d9;
+  color: #000000;
+}
+
+body.context-role-play .pane-page-level1-panel-pane-1 .pane-content .view-header,
+body.context-role-play .pane-page-level1-panel-pane-1 .pane-content .view-empty {
+  background: #dd2980;
+  color: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  font-family: arial,sans-serif;
+  font-size: 22.22px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+div.taxonomy-browser td.Role-Play div.views-field-field-image a {
+  color: #DD2980;
+}
+
+/*Other Subjects*/
+li.menu-mlid-1380 {
+  background-color: #d85f26;
+  color: #FFFFFF;
+}
+
+li.menu-mlid-1380 a {
+  background-color: #ebd3c7;
+  color: #000000;
+}
+
+body.context-other-subjects .pane-page-level1-panel-pane-1 .pane-content .view-header ,
+body.context-other-subjects .pane-page-level1-panel-pane-1 .pane-content .view-empty {
+  background: #d85f26;
+  color: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  font-family: arial,sans-serif;
+  font-size: 22.22px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+div.taxonomy-browser td.Other-Subjects div.views-field-field-image a {
+  color: #D85F26;
+}
+
+
+/*Classroom*/
+li.menu-mlid-1549 {
+  background-color: #61C28E;
+  color: #FFFFFF;
+}
+
+li.menu-mlid-1549 a {
+  background-color: #B8DECA;
+  color: #000000;
+}
+
+body.context-classroom .pane-page-level1-panel-pane-1 .pane-content .view-header ,
+body.context-classroom .pane-page-level1-panel-pane-1 .pane-content .view-empty {
+  background: #61C28E;
+  color: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  font-family: arial,sans-serif;
+  font-size: 22.22px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+div.taxonomy-browser td.Classroom div.views-field-field-image a {
+  color: #61C28E;
+}
+
+/*Associates*/
+li.menu-mlid-2378 {
+  background-color: #F54752;
+  color: #FFFFFF;
+}
+
+li.menu-mlid-2378 a {
+  background-color: #FCC5C8;
+  color: #000000;
+}
+
+body.context-associates .pane-page-level1-panel-pane-1 .pane-content .view-header ,
+body.context-associates .pane-page-level1-panel-pane-1 .pane-content .view-empty {
+  background: #F54752;
+  color: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  font-family: arial,sans-serif;
+  font-size: 22.22px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+div.taxonomy-browser td.Associates div.views-field-field-image a {
+  color: #F54752;
+}
+
+/*New Menu Category Title
+li.menu-mlid-??? {
+    background-color: #??????;
+    color: #FFFFFF;
+}
+
+li.menu-mlid-??? a {
+    background-color: #??????;
+    color: #000000;
+}
+
+body.context-??category-title?? .pane-content .view-header,
+body.context-??category-title?? .pane-content .view-empty {
+  background: #??????;
+  color: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  font-family: arial,sans-serif;
+  font-size: 22.22px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+div.taxonomy-browser td.??Category-Title?? div.views-field-field-image a {
+  color: #??????;
+}
+
+Delete this text and move this at to the end of the Category Title above to apply    -> */

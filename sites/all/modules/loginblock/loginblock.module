@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * @file
+ *  Loginblock module
+ *
+ * This module creates a custom 'Logged In' block to welcome users by name 
+ */
+
+
+/**
+ * Implement hook_block_view().
+ */
+function loginblock_block_view($delta = '') {
+  global $user;
+  $block = array();
+  switch ($delta) {
+    case 'loginblock_logged_in':
+      if ($user->uid) {
+        $block['content'] =  array(
+          '#type' => 'markup',
+          '#markup' => '<div class="login-block">' . l(t('My Account'), 'user') . ' | ' . l(t('Log out '), 'user/logout') . '</div>' . 
+            '<div class="welcome-block">' . t("Welcome %username", array('%username' => $user->name)) . '</div>',
+        );
+      }
+    break;
+  }
+  return $block;
+}
+
+/**
+ * Implement hook_block_info().
+ */
+function loginblock_block_info() {
+  $blocks = array();
+  $blocks['loginblock_logged_in'] = array(
+    'info' => t('loginblock logged in block'),
+    'cache' => DRUPAL_NO_CACHE,
+  );
+  return $blocks;
+}
+

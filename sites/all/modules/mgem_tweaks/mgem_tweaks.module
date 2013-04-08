@@ -1,0 +1,37 @@
+<?php
+
+function mgem_tweaks_form_commerce_checkout_form_review_alter(&$form, &$form_state, $form_id) {
+  $form['paypal_disclaimer'] = array(
+    '#markup' => '<div class="paypal-help-text"><label>' . t('If you do not have a PayPal account you can pay with one of the above payment cards.  At the PayPal log-in screen click the option \'Don\'t have a PayPal account\'.  This will allow you to pay as a PayPal guest.') . '</label></div>',
+    '#weight' => 1,
+  );
+  $form['buttons']['#weight'] = 2;
+}
+
+function mgem_tweaks_form_views_form_commerce_cart_form_default_alter(&$form, &$form_state, $form_id) {
+  $form['actions']['checkout']['#value'] = t('Proceed to Checkout');
+  $form['back_button']['#markup'] = '<div class="views-field-back-button"><a href="#" onclick="history.go(-1);return false;">' . 
+    t('Back to previous page') . '</a></div>';
+  $form['back_button']['#weight'] = 51;
+}
+
+function mgem_tweaks_form_alter(&$form, &$form_state, $form_id) {
+}
+
+function mgem_tweaks_form_views_form_commerce_orders_admin_page_alter(&$form, &$form_state, $form_id) {
+  unset($form['properties']['status']['#options']['Shopping basket']);
+  unset($form['properties']['status']['#options']['Checkout']);
+}
+
+function mgem_tweaks_form_views_exposed_form_alter(&$form, &$form_state, $form_id) {
+  if ($form['sort_by']) {
+    $form['sort_by']['#value'] = t('title');
+  }
+  if ($form['sort_order']) {
+    $form['sort_order']['#title'] = t('Sort Order');
+    $form['sort_order']['#options'] = array(
+      'ASC' => 'A -> Z',
+      'DESC' => 'Z -> A',
+    );
+  }
+}

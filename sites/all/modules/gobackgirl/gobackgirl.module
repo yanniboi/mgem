@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * @file
+ *  Loginblock module
+ *
+ * This module creates a custom 'Logged In' block to welcome users by name 
+ */
+
+
+/**
+ * Implement hook_block_view().
+ */
+function gobackgirl_block_view($delta = '') {
+  global $user;
+  $block = array();
+  $x = 1;
+  switch ($delta) {
+    case 'go_back_girl':
+      if ($x == 1) {
+        $block['content'] =  array(
+          '#type' => 'markup',
+          '#markup' => '<a href="#" onclick="history.go(-1);return false;">' . 'Back to previous page' . '</a>',
+        );
+      }
+    break;
+  }
+  return $block;
+}
+
+/**
+ * Implement hook_block_info().
+ */
+function gobackgirl_block_info() {
+  $blocks = array();
+  $blocks['go_back_girl'] = array(
+    'info' => t('Go Back Girl block'),
+    'cache' => DRUPAL_NO_CACHE,
+  );
+  return $blocks;
+}
+

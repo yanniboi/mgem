@@ -1,0 +1,88 @@
+label {
+  color: #e8018d;
+  display: inline;
+}
+
+.form-required {
+  display: none;
+}
+
+.form-item {
+  margin: 8px 0px;
+}
+
+div#block-user-login .form-item {
+  padding-left: 80px;
+  overflow: hidden;
+}
+
+div#block-user-login .form-item input{
+	width: 135px;
+}
+
+div#block-user-login .form-item label {
+  margin-left: -80px;
+  float: left;
+  font-size: 12.5px;
+  line-height: 23.5px;
+  overflow: hidden;
+  width: 65px;
+  height: 20px;
+}
+
+div#block-user-login .form-actions {
+  margin: 0px;
+  float: right;
+}
+
+div#block-user-login .item-list {
+  float: left;
+}
+
+div#block-user-login ul {
+  margin: 0px;
+}
+
+div#block-user-login .item-list li {
+  margin: 0px;
+}
+
+div#block-user-login .item-list li a{
+  color: #3FC0F0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12.5px;
+}
+
+div#block-system-user-menu li {
+	list-style: none;
+}
+
+div#block-system-user-menu li a,
+div#block-system-user-menu li a:link, 
+div#block-system-user-menu li a:hover {
+  color: #e8018d;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12.5px;
+}
+
+body.not-logged-in div.boy-and-girl:before {
+	content: "";
+	background: url(../images/login.png) no-repeat scroll 0 0 transparent;
+	position: absolute;
+	top: -108px;
+	left: 545px;
+	height: 135px;
+	width: 175px;
+	z-index: 20;
+}
+
+body.not-logged-in div.boy-and-girl {
+	height: 0;
+}
+
+body.page-user-register div.boy-and-girl:before,
+body.page-user-password div.boy-and-girl:before {
+	display: none;
+}

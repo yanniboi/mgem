@@ -1,0 +1,12 @@
+<?php
+/**
+ * Implements commerce_taxonomy_reference_views_api
+ */
+function commerce_taxonomy_reference_views_api () {
+   return array(
+     'api' => 3.0,
+     'path' => drupal_get_path('module', 'commerce_taxonomy_reference') . '/views',
+   );
+}
+
+

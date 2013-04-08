@@ -1,0 +1,5 @@
+
+name = "Go Back Girl"
+description = "Return Block to take user back to previous page"
+core = "7.x"
+package = "Yan's Custom Modules"
